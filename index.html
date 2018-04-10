@@ -9,6 +9,10 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+          integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+          crossorigin="anonymous">
+  </script>
 </head>
 <body id="home" class="scrollspy">
   <div class="navbar-fixed">
@@ -21,7 +25,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#search">Search</a></li>
             <li><a href="#pplaces">Popular Places</a></li>
-            <li><a href="gallery">Gallery</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -32,7 +36,7 @@
       <li><a href="#home">Home</a></li>
       <li><a href="#search">Search</a></li>
       <li><a href="#pplaces">Popular Places</a></li>
-      <li><a href="gallery">Gallery</a></li>
+      <li><a href="#gallery">Gallery</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
@@ -121,6 +125,7 @@
   <section id="pplaces" class="section section-pplaces scrollspy">
     <div class="container">
       <div class="row">
+        <h4 class="center"><span class="blue-text">Popular</span> Places</h4>
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
@@ -170,6 +175,110 @@
     </div>
   </section>
 
+  <section class="section section-follow blue darken-2 white-text center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4>Follow Us</h4>
+          <p>Follow us an Social Media for special offers</p>
+          <a href="#" class="white-text ">
+            <i class="fab fa-facebook fa-4x"></i>
+          </a>
+          <a href="#" class="white-text ">
+            <i class="fab fa-twitter fa-4x"></i>
+          </a>
+          <a href="#" class="white-text ">
+            <i class="fab fa-linkedin fa-4x"></i>
+          </a>
+          <a href="#" class="white-text ">
+            <i class="fab fa-google-plus fa-4x"></i>
+          </a>
+          <a href="#" class="white-text ">
+            <i class="fab fa-pinterest fa-4x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section section-gallery scrollspy">
+    <div class="container">
+      <h4 class="center"><span class="blue-text">Photo </span>Gallery</h4>
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Atardecer_Isla_de_Malpelo_-_Colombia.jpg" class="materialboxed responsive-img " alt="">
+        </div>
+        <div class="col s12 m3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/%E4%BC%8A%E8%B1%86%E5%8D%8A%E5%B3%B6_-_panoramio_%284%29.jpg" class="materialboxed responsive-img " alt="">
+        </div>
+        <div class="col s12 m3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Great_nature_landscape_Pakistan.jpg" class="materialboxed responsive-img " alt="">
+        </div>
+        <div class="col s12 m3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Port_Douglas%2C_Queensland_-_Four_Mile_Beach.jpg" class="materialboxed responsive-img " alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Great_nature_landscape_Pakistan.jpg" class="materialboxed responsive-img " alt="">
+        </div>
+        <div class="col s12 m3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Kasauli_forest.jpg" class="materialboxed responsive-img " alt="">
+        </div>
+        <div class="col s12 m3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Daniel_Vineyards_TreeDeck_and_Vineyards.jpg" class="materialboxed responsive-img " alt="">
+        </div>
+        <div class="col s12 m3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Air_terjun_tombolo_pao.jpg" class="materialboxed responsive-img " alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-contact scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel blue white-text center">
+            <i class="material-icons">email</i>
+            <h5>Contact us for Booking</h5>
+            <p>Praesent facilisis nisl ut dui imperdiet, id dictum massa rutrum.
+              Sed tempor tristique tortor, sit amet imperdiet lorem tristique eleifend.
+              Nullam vel ultricies diam, eu eleifend lorem.
+            </p>
+          </div>
+          <ul class="collection with-header">
+            <li class="collection-header"> <h4>Location</h4> </li>
+            <li class="collection-item">Travel Agency</li>
+            <li class="collection-item">FriedrichStrasse. 1000</li>
+            <li class="collection-item">Berlin, Germany</li>
+          </ul>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-3">
+            <h5>Please fill out this form</h5>
+            <div class="input-field">
+              <input type="text" placeholder="Name">
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Email">
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Phone">
+            </div>
+            <div class="input-field">
+              <textarea type="text" placeholder="Enter Message" class="materialize-textarea"></textarea>
+            </div>
+            <input type="submit" name="" value="Submit" class="btn blue">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section blue white-text center">
+    <p class="flow-text">MrIsa &copy; 2018</p>
+  </footer>
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
